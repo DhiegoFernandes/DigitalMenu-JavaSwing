@@ -107,14 +107,14 @@ public class Tela_ItensDoPedido extends Heuristica {
         pnl_superior.setBackground(new java.awt.Color(246, 242, 233));
         pnl_superior.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Itens do pedido", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 18))); // NOI18N
 
-        lbl_foto_pedido.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\pedido.png"));
+        lbl_foto_pedido.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/pedido.png")));
         lbl_foto_pedido.setText("jLabel1");
 
         lbl_numero_pedido.setFont(new java.awt.Font("sansserif", 1, 36)); // NOI18N
         lbl_numero_pedido.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl_numero_pedido.setText("jLabel1");
 
-        lbl_foto_mesa.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\table.png"));
+        lbl_foto_mesa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/table.png")));
         lbl_foto_mesa.setText("jLabel1");
 
         lbl_numero_mesa.setFont(new java.awt.Font("sansserif", 1, 36)); // NOI18N
@@ -196,7 +196,7 @@ public class Tela_ItensDoPedido extends Heuristica {
 
         btn_voltar.setBackground(new java.awt.Color(255, 243, 198));
         btn_voltar.setFont(new java.awt.Font("Segoe UI", 0, 26)); // NOI18N
-        btn_voltar.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\voltar.png"));
+        btn_voltar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/voltar.png")));
         btn_voltar.setText("Voltar");
         btn_voltar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -206,7 +206,7 @@ public class Tela_ItensDoPedido extends Heuristica {
 
         btn_voltar1.setBackground(new java.awt.Color(255, 153, 153));
         btn_voltar1.setFont(new java.awt.Font("Segoe UI", 0, 26)); // NOI18N
-        btn_voltar1.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\negativo.png"));
+        btn_voltar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/negativo.png")));
         btn_voltar1.setText("Cancelar Item");
         btn_voltar1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -216,7 +216,7 @@ public class Tela_ItensDoPedido extends Heuristica {
 
         btn_voltar2.setBackground(new java.awt.Color(204, 255, 204));
         btn_voltar2.setFont(new java.awt.Font("Segoe UI", 0, 26)); // NOI18N
-        btn_voltar2.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\positivo.png"));
+        btn_voltar2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/positivo.png")));
         btn_voltar2.setText("Adicionar Item");
         btn_voltar2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

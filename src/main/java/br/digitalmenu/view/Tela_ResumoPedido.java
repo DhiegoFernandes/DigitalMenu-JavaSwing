@@ -96,13 +96,13 @@ public class Tela_ResumoPedido extends Heuristica {
         pnl_superior.setBackground(new java.awt.Color(246, 242, 233));
 
         lbl_Pedido.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbl_Pedido.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\pedido.png"));
+        lbl_Pedido.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/pedido.png")));
 
         lbl_numero_pedido.setFont(new java.awt.Font("sansserif", 1, 36)); // NOI18N
         lbl_numero_pedido.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl_numero_pedido.setText("nº");
 
-        lbl_Mesa.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\table.png"));
+        lbl_Mesa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/table.png")));
 
         lbl_numero_mesa.setFont(new java.awt.Font("sansserif", 1, 36)); // NOI18N
         lbl_numero_mesa.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -195,7 +195,7 @@ public class Tela_ResumoPedido extends Heuristica {
 
         btn_voltar.setBackground(new java.awt.Color(255, 243, 198));
         btn_voltar.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        btn_voltar.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\voltar.png"));
+        btn_voltar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/voltar.png")));
         btn_voltar.setText("Voltar");
         btn_voltar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -206,7 +206,7 @@ public class Tela_ResumoPedido extends Heuristica {
         btn_encerrar_pedido.setBackground(new java.awt.Color(176, 50, 39));
         btn_encerrar_pedido.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         btn_encerrar_pedido.setForeground(new java.awt.Color(246, 242, 217));
-        btn_encerrar_pedido.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\cashamarelo.png"));
+        btn_encerrar_pedido.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/cashamarelo.png")));
         btn_encerrar_pedido.setText("Encerrar Pedido");
         btn_encerrar_pedido.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

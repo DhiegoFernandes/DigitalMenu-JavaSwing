@@ -67,7 +67,7 @@ public class TelaDeEspera extends javax.swing.JFrame {
 
         btn_Voltar.setBackground(new java.awt.Color(255, 243, 198));
         btn_Voltar.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        btn_Voltar.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\voltar.png"));
+        btn_Voltar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/voltar.png")));
         btn_Voltar.setText("Voltar");
         btn_Voltar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,7 +86,7 @@ public class TelaDeEspera extends javax.swing.JFrame {
         });
 
         lbl_logo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbl_logo.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\digitalmenu2.png"));
+        lbl_logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/digitalmenu2.png")));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

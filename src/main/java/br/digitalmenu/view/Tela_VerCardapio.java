@@ -156,35 +156,35 @@ public class Tela_VerCardapio extends javax.swing.JFrame {
 
     public void setFotos(int cat) {
         if (cat == 1) {
-            lbl_foto_1.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Entrada1.png"));
-            lbl_foto_2.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Entrada2.png"));
-            lbl_foto_3.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Entrada3.png"));
-            lbl_foto_4.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Entrada4.png"));
-            lbl_foto_5.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Entrada5.png"));
+            lbl_foto_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Entrada1.png")));
+            lbl_foto_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Entrada2.png")));
+            lbl_foto_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Entrada3.png")));
+            lbl_foto_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Entrada4.png")));
+            lbl_foto_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Entrada5.png")));
         } else if (cat == 2) {
-            lbl_foto_1.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Carne1.png"));
-            lbl_foto_2.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Carne2.png"));
-            lbl_foto_3.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Carne3.png"));
-            lbl_foto_4.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Carne4.png"));
-            lbl_foto_5.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Carne5.png"));
+            lbl_foto_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Carne1.png")));
+            lbl_foto_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Carne2.png")));
+            lbl_foto_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Carne3.png")));
+            lbl_foto_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Carne4.png")));
+            lbl_foto_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Carne5.png")));
         } else if (cat == 3) {
-            lbl_foto_1.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Burg1.png"));
-            lbl_foto_2.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Burg2.png"));
-            lbl_foto_3.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Burg3.png"));
-            lbl_foto_4.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Burg4.png"));
-            lbl_foto_5.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Burg5.png"));
+            lbl_foto_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Burg1.png")));
+            lbl_foto_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Burg2.png")));
+            lbl_foto_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Burg3.png")));
+            lbl_foto_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Burg4.png")));
+            lbl_foto_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Burg5.png")));
         } else if (cat == 4) {
-            lbl_foto_1.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Suco1.png"));
-            lbl_foto_2.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Suco2.jpg"));
-            lbl_foto_3.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Refri1.jpg"));
-            lbl_foto_4.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Refri2.jpg"));
-            lbl_foto_5.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Refri3.jpg"));
+            lbl_foto_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Suco1.png")));
+            lbl_foto_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Suco2.jpg")));
+            lbl_foto_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Refri1.jpg")));
+            lbl_foto_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Refri2.jpg")));
+            lbl_foto_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Refri3.jpg")));
         } else if (cat == 5) {
-            lbl_foto_1.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Sobremesa1.png"));
-            lbl_foto_2.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Sobremesa2.png"));
-            lbl_foto_3.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Sobremesa3.png"));
-            lbl_foto_4.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Sobremesa4.png"));
-            lbl_foto_5.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Sobremesa5.png"));
+            lbl_foto_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Sobremesa1.png")));
+            lbl_foto_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Sobremesa2.png")));
+            lbl_foto_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Sobremesa3.png")));
+            lbl_foto_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Sobremesa4.png")));
+            lbl_foto_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Sobremesa5.png")));
         } else {
         }
     }
@@ -497,7 +497,7 @@ public class Tela_VerCardapio extends javax.swing.JFrame {
 
         btn_Voltar.setBackground(new java.awt.Color(102, 255, 102));
         btn_Voltar.setFont(new java.awt.Font("Cooper Black", 0, 26)); // NOI18N
-        btn_Voltar.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\voltar.png"));
+        btn_Voltar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/voltar.png")));
         btn_Voltar.setText("Voltar");
         btn_Voltar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -541,7 +541,7 @@ public class Tela_VerCardapio extends javax.swing.JFrame {
         pnl_botoes_superior.setBackground(new java.awt.Color(176, 50, 39));
 
         lbl_Logo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbl_Logo.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\digitalmenu3.png"));
+        lbl_Logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/digitalmenu3.png")));
 
         pnl_LABELS_INDICES.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 

@@ -159,35 +159,35 @@ public class Tela_Menu extends javax.swing.JFrame {
 
     public void setFotos(int cat) {
         if (cat == 1) {
-            lbl_foto_1.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Entrada1.png"));
-            lbl_foto_2.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Entrada2.png"));
-            lbl_foto_3.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Entrada3.png"));
-            lbl_foto_4.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Entrada4.png"));
-            lbl_foto_5.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Entrada5.png"));
+            lbl_foto_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Entrada1.png")));
+            lbl_foto_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Entrada2.png")));
+            lbl_foto_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Entrada3.png")));
+            lbl_foto_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Entrada4.png")));
+            lbl_foto_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Entrada5.png")));
         } else if (cat == 2) {
-            lbl_foto_1.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Carne1.png"));
-            lbl_foto_2.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Carne2.png"));
-            lbl_foto_3.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Carne3.png"));
-            lbl_foto_4.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Carne4.png"));
-            lbl_foto_5.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Carne5.png"));
+            lbl_foto_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Carne1.png")));
+            lbl_foto_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Carne2.png")));
+            lbl_foto_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Carne3.png")));
+            lbl_foto_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Carne4.png")));
+            lbl_foto_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Carne5.png")));
         } else if (cat == 3) {
-            lbl_foto_1.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Burg1.png"));
-            lbl_foto_2.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Burg2.png"));
-            lbl_foto_3.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Burg3.png"));
-            lbl_foto_4.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Burg4.png"));
-            lbl_foto_5.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Burg5.png"));
+            lbl_foto_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Burg1.png")));
+            lbl_foto_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Burg2.png")));
+            lbl_foto_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Burg3.png")));
+            lbl_foto_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Burg4.png")));
+            lbl_foto_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Burg5.png")));
         } else if (cat == 4) {
-            lbl_foto_1.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Suco1.png"));
-            lbl_foto_2.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Suco2.jpg"));
-            lbl_foto_3.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Refri1.jpg"));
-            lbl_foto_4.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Refri2.jpg"));
-            lbl_foto_5.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Refri3.jpg"));
+            lbl_foto_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Suco1.png")));
+            lbl_foto_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Suco2.jpg")));
+            lbl_foto_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Refri1.jpg")));
+            lbl_foto_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Refri2.jpg")));
+            lbl_foto_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Refri3.jpg")));
         } else if (cat == 5) {
-            lbl_foto_1.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Sobremesa1.png"));
-            lbl_foto_2.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Sobremesa2.png"));
-            lbl_foto_3.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Sobremesa3.png"));
-            lbl_foto_4.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Sobremesa4.png"));
-            lbl_foto_5.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\Sobremesa5.png"));
+            lbl_foto_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Sobremesa1.png")));
+            lbl_foto_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Sobremesa2.png")));
+            lbl_foto_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Sobremesa3.png")));
+            lbl_foto_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Sobremesa4.png")));
+            lbl_foto_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/Sobremesa5.png")));
         } else {
         }
     }
@@ -694,7 +694,7 @@ public class Tela_Menu extends javax.swing.JFrame {
         lbl_icone_carrinho.setBackground(new java.awt.Color(255, 102, 51));
         lbl_icone_carrinho.setFont(new java.awt.Font("Cooper Black", 0, 24)); // NOI18N
         lbl_icone_carrinho.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbl_icone_carrinho.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\carrinhoamarelo.png"));
+        lbl_icone_carrinho.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/carrinhoamarelo.png")));
         lbl_icone_carrinho.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
                 lbl_icone_carrinhoMouseReleased(evt);
@@ -713,7 +713,7 @@ public class Tela_Menu extends javax.swing.JFrame {
         });
 
         lbl_Logo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbl_Logo.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\digitalmenu3.png"));
+        lbl_Logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/digitalmenu3.png")));
 
         lbl_EncerrarPedido.setBackground(new java.awt.Color(255, 102, 51));
         lbl_EncerrarPedido.setFont(new java.awt.Font("Cooper Black", 0, 24)); // NOI18N
@@ -912,10 +912,10 @@ public class Tela_Menu extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        lbl_fotoOrder.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\order.png"));
+        lbl_fotoOrder.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/order.png")));
 
         lbl_foto_carrinho.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbl_foto_carrinho.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\cashamarelo.png"));
+        lbl_foto_carrinho.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/cashamarelo.png")));
         lbl_foto_carrinho.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
                 lbl_foto_carrinhoMouseReleased(evt);
@@ -1018,7 +1018,7 @@ public class Tela_Menu extends javax.swing.JFrame {
 
         btn_remover_item.setBackground(new java.awt.Color(255, 153, 153));
         btn_remover_item.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        btn_remover_item.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\negativo.png"));
+        btn_remover_item.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/negativo.png")));
         btn_remover_item.setText("Remover Item");
         btn_remover_item.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1028,7 +1028,7 @@ public class Tela_Menu extends javax.swing.JFrame {
 
         btn_enviar_pedido.setBackground(new java.awt.Color(102, 255, 102));
         btn_enviar_pedido.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        btn_enviar_pedido.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\check.png"));
+        btn_enviar_pedido.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/check.png")));
         btn_enviar_pedido.setText("Enviar Pedido");
         btn_enviar_pedido.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1038,7 +1038,7 @@ public class Tela_Menu extends javax.swing.JFrame {
 
         btn_pre_conta.setBackground(new java.awt.Color(255, 255, 102));
         btn_pre_conta.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        btn_pre_conta.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\bill.png"));
+        btn_pre_conta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/bill.png")));
         btn_pre_conta.setText("Comanda");
         btn_pre_conta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1048,7 +1048,7 @@ public class Tela_Menu extends javax.swing.JFrame {
 
         btn_Sair.setBackground(new java.awt.Color(255, 153, 153));
         btn_Sair.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        btn_Sair.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\voltar.png"));
+        btn_Sair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/voltar.png")));
         btn_Sair.setText("Sair");
         btn_Sair.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1059,7 +1059,7 @@ public class Tela_Menu extends javax.swing.JFrame {
         btn_EncerrarPedido.setBackground(new java.awt.Color(176, 50, 39));
         btn_EncerrarPedido.setFont(new java.awt.Font("Cooper Black", 0, 26)); // NOI18N
         btn_EncerrarPedido.setForeground(new java.awt.Color(255, 255, 255));
-        btn_EncerrarPedido.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\cash.png"));
+        btn_EncerrarPedido.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/cash.png")));
         btn_EncerrarPedido.setText("Encerrar Pedido");
         btn_EncerrarPedido.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

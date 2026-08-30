@@ -89,7 +89,7 @@ public class Tela_Login extends javax.swing.JFrame {
         txt_senha.setBounds(80, 270, 194, 30);
 
         lbl_icone_disable.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbl_icone_disable.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\eyeclose.png"));
+        lbl_icone_disable.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/eyeclose.png")));
         lbl_icone_disable.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lbl_icone_disable.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -100,7 +100,7 @@ public class Tela_Login extends javax.swing.JFrame {
         lbl_icone_disable.setBounds(280, 270, 27, 30);
 
         lbl_icone_show.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbl_icone_show.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\eyeopen.png"));
+        lbl_icone_show.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/eyeopen.png")));
         lbl_icone_show.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lbl_icone_show.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -163,7 +163,7 @@ public class Tela_Login extends javax.swing.JFrame {
         pbl_tela_login.add(btn_fechar);
         btn_fechar.setBounds(750, 0, 35, 28);
 
-        lbl_wallpaper.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\fundo.png"));
+        lbl_wallpaper.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/fundo.png")));
         pbl_tela_login.add(lbl_wallpaper);
         lbl_wallpaper.setBounds(0, 0, 790, 560);
 
@@ -191,7 +191,7 @@ public class Tela_Login extends javax.swing.JFrame {
         lbl_icone_show.setEnabled(true);
         lbl_icone_show.setEnabled(true);
         lbl_icone_show.setEnabled(true);
-        lbl_icone_disable.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\eyeopen.png"));
+        lbl_icone_disable.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/eyeopen.png")));
     }//GEN-LAST:event_lbl_icone_disableMouseClicked
 
     private void lbl_icone_showMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_icone_showMouseClicked
@@ -200,7 +200,7 @@ public class Tela_Login extends javax.swing.JFrame {
         lbl_icone_disable.setEnabled(true);
         lbl_icone_show.setEnabled(false);
         lbl_icone_show.setEnabled(false);
-        lbl_icone_disable.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\eyeclose.png"));
+        lbl_icone_disable.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/eyeclose.png")));
     }//GEN-LAST:event_lbl_icone_showMouseClicked
 
     private void cbo_mesaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbo_mesaActionPerformed

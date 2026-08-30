@@ -127,7 +127,7 @@ public class Tela_Admin extends Heuristica {
         btn_categorias.setBackground(new java.awt.Color(176, 50, 39));
         btn_categorias.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 24)); // NOI18N
         btn_categorias.setForeground(new java.awt.Color(255, 255, 255));
-        btn_categorias.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\categoria.png"));
+        btn_categorias.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/categoria.png")));
         btn_categorias.setText("<html> <html> <body> <h><div style=\"text-align:center\"> Categorias de produtos</h></center> </body> </html>");
         btn_categorias.setActionCommand("<html> <html> <body> <p> Categorias de produtos</p> </body> </html>");
         btn_categorias.setPreferredSize(new java.awt.Dimension(108, 35));
@@ -140,7 +140,7 @@ public class Tela_Admin extends Heuristica {
         btn_mesas.setBackground(new java.awt.Color(176, 50, 39));
         btn_mesas.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 24)); // NOI18N
         btn_mesas.setForeground(new java.awt.Color(255, 255, 255));
-        btn_mesas.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\table.png"));
+        btn_mesas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/table.png")));
         btn_mesas.setText("Mesas");
         btn_mesas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -151,7 +151,7 @@ public class Tela_Admin extends Heuristica {
         btn_listar_pedidos.setBackground(new java.awt.Color(176, 50, 39));
         btn_listar_pedidos.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 24)); // NOI18N
         btn_listar_pedidos.setForeground(new java.awt.Color(255, 255, 255));
-        btn_listar_pedidos.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\pedido.png"));
+        btn_listar_pedidos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/pedido.png")));
         btn_listar_pedidos.setText("Pedidos");
         btn_listar_pedidos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -162,7 +162,7 @@ public class Tela_Admin extends Heuristica {
         btn_produtos.setBackground(new java.awt.Color(176, 50, 39));
         btn_produtos.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 24)); // NOI18N
         btn_produtos.setForeground(new java.awt.Color(255, 255, 255));
-        btn_produtos.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\burguersoda.png"));
+        btn_produtos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/burguersoda.png")));
         btn_produtos.setText("Produtos");
         btn_produtos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -173,7 +173,7 @@ public class Tela_Admin extends Heuristica {
         btn_usuarios.setBackground(new java.awt.Color(176, 50, 39));
         btn_usuarios.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 24)); // NOI18N
         btn_usuarios.setForeground(new java.awt.Color(255, 255, 255));
-        btn_usuarios.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\usuarios.png"));
+        btn_usuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/usuarios.png")));
         btn_usuarios.setText("Usuários");
         btn_usuarios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -247,11 +247,11 @@ public class Tela_Admin extends Heuristica {
         lbl_Usuario.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lbl_Usuario.setText("usuario");
 
-        lbl_icone.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\administrador.png"));
+        lbl_icone.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/administrador.png")));
         lbl_icone.setText("Icone");
 
         lblLogo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblLogo.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\digitalmenu2.png"));
+        lblLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/digitalmenu2.png")));
 
         javax.swing.GroupLayout pnl_headerLayout = new javax.swing.GroupLayout(pnl_header);
         pnl_header.setLayout(pnl_headerLayout);
@@ -315,7 +315,7 @@ public class Tela_Admin extends Heuristica {
         btn_gerar_relatorio.setBackground(new java.awt.Color(255, 153, 0));
         btn_gerar_relatorio.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 36)); // NOI18N
         btn_gerar_relatorio.setForeground(new java.awt.Color(255, 255, 255));
-        btn_gerar_relatorio.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\relatorio.png"));
+        btn_gerar_relatorio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/relatorio.png")));
         btn_gerar_relatorio.setText("<html> <html> <body> <h><div style=\"text-align:center\"> Gerar Relatório</h></center> </body> </html>");
         btn_gerar_relatorio.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -326,7 +326,7 @@ public class Tela_Admin extends Heuristica {
         btn_abrir_pedido.setBackground(new java.awt.Color(176, 50, 39));
         btn_abrir_pedido.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 36)); // NOI18N
         btn_abrir_pedido.setForeground(new java.awt.Color(255, 255, 255));
-        btn_abrir_pedido.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\pedir.png"));
+        btn_abrir_pedido.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/pedir.png")));
         btn_abrir_pedido.setText("<html> <html> <body> <h><div style=\"text-align:center\"> Criar pedido</h></center> </body> </html>");
         btn_abrir_pedido.setMinimumSize(new java.awt.Dimension(201, 49));
         btn_abrir_pedido.setPreferredSize(new java.awt.Dimension(319, 49));

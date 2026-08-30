@@ -66,11 +66,11 @@ public class Tela_Atendente extends javax.swing.JFrame {
         lbl_usuario.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lbl_usuario.setText("usuario");
 
-        lbl_foto_atendente.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\garcom.png"));
+        lbl_foto_atendente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/garcom.png")));
         lbl_foto_atendente.setText("Icone");
 
         lblLogo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblLogo.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\digitalmenu2.png"));
+        lblLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/digitalmenu2.png")));
 
         javax.swing.GroupLayout pnlTopoLayout = new javax.swing.GroupLayout(pnlTopo);
         pnlTopo.setLayout(pnlTopoLayout);
@@ -113,7 +113,7 @@ public class Tela_Atendente extends javax.swing.JFrame {
         btn_abrir_pedido.setBackground(new java.awt.Color(176, 50, 39));
         btn_abrir_pedido.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 36)); // NOI18N
         btn_abrir_pedido.setForeground(new java.awt.Color(255, 255, 255));
-        btn_abrir_pedido.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\waiter.png"));
+        btn_abrir_pedido.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/waiter.png")));
         btn_abrir_pedido.setText("Abrir pedido");
         btn_abrir_pedido.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -124,7 +124,7 @@ public class Tela_Atendente extends javax.swing.JFrame {
         btn_listar_pedidos.setBackground(new java.awt.Color(176, 50, 39));
         btn_listar_pedidos.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 36)); // NOI18N
         btn_listar_pedidos.setForeground(new java.awt.Color(255, 255, 255));
-        btn_listar_pedidos.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\pedido.png"));
+        btn_listar_pedidos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/pedido.png")));
         btn_listar_pedidos.setText("Pedidos");
         btn_listar_pedidos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -135,7 +135,7 @@ public class Tela_Atendente extends javax.swing.JFrame {
         btn_mesas.setBackground(new java.awt.Color(176, 50, 39));
         btn_mesas.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 36)); // NOI18N
         btn_mesas.setForeground(new java.awt.Color(255, 255, 255));
-        btn_mesas.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\table.png"));
+        btn_mesas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/table.png")));
         btn_mesas.setText("Mesas");
         btn_mesas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -146,7 +146,7 @@ public class Tela_Atendente extends javax.swing.JFrame {
         btn_produtos.setBackground(new java.awt.Color(176, 50, 39));
         btn_produtos.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 36)); // NOI18N
         btn_produtos.setForeground(new java.awt.Color(255, 255, 255));
-        btn_produtos.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\br\\digitalmenu\\images\\burguersoda.png"));
+        btn_produtos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/digitalmenu/images/burguersoda.png")));
         btn_produtos.setText("Produtos");
         btn_produtos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
